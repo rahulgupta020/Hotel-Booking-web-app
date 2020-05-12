@@ -3,5 +3,7 @@ from .import views
 
 urlpatterns = [
     path('Booking/', views.Booking, name='Booking'),
-    path('BookingSuccess/', views.BookingSuccess, name='BookingSuccess')
+    path('BookingSuccess/', views.BookingSuccess, name='BookingSuccess'),
+
+    # path('EventBooking/', views.EventBooking, name='EventBooking'),
 ]

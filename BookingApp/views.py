@@ -17,3 +17,7 @@ def Booking(request):
 
 def BookingSuccess(request):
     return render(request, 'BookingApp/BookingSuccess.html')
+
+
+# def EventBooking(request):
+#     return render(request, 'BookingApp/EventBooking.html')
